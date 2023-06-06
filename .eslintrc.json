@@ -1,0 +1,10 @@
+{
+  "extends": ["react-app", "react-app/jest", "prettier"],
+  "rules": {
+    "semi": "warn",
+    "testing-library/no-render-in-setup": [
+      "error",
+      { "allowTestingFrameworkSetupHook": "beforeEach" }
+    ]
+  }
+}
